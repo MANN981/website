@@ -119,6 +119,11 @@ This README file provides instructions on how to update various elements of the 
 4. **Automatic Updates**:
    - If you use GitHub, Netlify will handle updates automatically. Every time you push changes to your GitHub repository, Netlify will redeploy your site with the latest code changes without any additional steps from you.
 
+- Note:
+   ```html
+   Netlify offers up to 100 GB of bandwidth for free. Beyond this limit, you’ll need to pay for additional usage. If you anticipate needing more bandwidth or prefer a different hosting solution, consider alternatives. I chose Netlify for its ease of use and suitability for short-term hosting. After this period, I plan to migrate the site to a web server or VPS.
+   ```
+
 ## Conclusion
 
 By following these steps, you can update the links, logo, and bot name on your Achie Discord Bot webpage and host it using Netlify. Ensure you test the webpage after making changes to confirm that everything is working correctly.
@@ -127,7 +132,7 @@ By following these steps, you can update the links, logo, and bot name on your A
 
 If you encounter any issues or have questions, feel free to reach out for support:
 
-[Contact Support](mailto:support@example.com)
+[Contact Support](https://discord.gg/jCgweFSBXy)
 
 ---
 

@@ -107,12 +107,12 @@ This README file provides instructions on how to update various elements of the 
    - Create a new account or log in with your existing account.
 
 2. **Upload Your Code**:
-   - Once logged in, click on "Sites" > "Add New Site" > "Deply Manually" > "Drag & drop your site output folder here".
+   - Once logged in, click on "Sites" > "Add New Site" > "Deploy Manually" > "Drag & drop your site output folder here".
    - If you choose to upload manually, drag and drop your project files (including `index.html`, `style.css`, and `links.js`) into the upload area. Netlify will automatically build and deploy your site.
 
 3. **Using GitHub for Automatic Deployment**:
    - Alternatively, you can use GitHub to host your code. First, push your code to a GitHub repository.
-   - In Netlify, select "Sites" > "Add New Site" > "Import An Existing Project"  and choose GitHub as the source.
+   - In Netlify, select "Sites" > "Add New Site" > "Import An Existing Project" and choose GitHub as the source.
    - Connect your GitHub account and select the repository containing your project.
    - Netlify will automatically deploy your site. It will also automatically update the live site whenever you push new changes to your GitHub repository.
 
@@ -123,7 +123,11 @@ This README file provides instructions on how to update various elements of the 
 
 By following these steps, you can update the links, logo, and bot name on your Achie Discord Bot webpage and host it using Netlify. Ensure you test the webpage after making changes to confirm that everything is working correctly.
 
-If you encounter any issues or have questions, feel free to reach out for support.
+## Need Help?
+
+If you encounter any issues or have questions, feel free to reach out for support:
+
+[Contact Support](mailto:support@example.com)
 
 ---
 

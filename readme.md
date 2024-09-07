@@ -138,5 +138,22 @@ If you encounter any issues or have questions, feel free to reach out for suppor
 
 <div style="display: flex; align-items: center;">
   <img src="logo.gif" alt="Developed by Console" style="border-radius: 25%; width: 25px; height: 25px; margin-right: 10px;">
-  <span><strong>Developed by Console</strong></span>
-</div>
+  <span style="
+    font-size: 20px; 
+    font-weight: bold; 
+    animation: pulse 2s infinite;
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        color: #ffffff;
+      }
+      50% {
+        transform: scale(1.1);
+        color: #f0f0f0;
+      }
+      100% {
+        transform: scale(1);
+        color: #ffffff;
+      }
+    }
+  ">Developed by Console</span>

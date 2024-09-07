@@ -1,18 +1,21 @@
+/* General Styles */
 body {
   background-color: #121212;
   margin: 0;
   padding: 0;
 }
 
+/* Hexagon Styles */
 .hexagon {
   width: 100px;
-  height: 86.6px; /* Calculated based on hexagon shape */
-  background-color: rgba(0, 128, 255, 0.5); /* Blue with transparency */
+  height: 86.6px;
+  background-color: rgba(0, 128, 255, 0.5);
   position: relative;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   animation: glow 2s infinite alternate;
 }
 
+/* Glow Animation */
 @keyframes glow {
   0% {
     opacity: 0.5;
@@ -27,10 +30,12 @@ body {
   }
 }
 
+/* Custom Pulse Animation */
 .animate-pulse-custom {
   animation: pulse 2s infinite;
 }
 
+/* Pulse Animation */
 @keyframes pulse {
   0% {
     transform: scale(1);

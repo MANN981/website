@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awesome Discord Bot</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+    
+    <!-- Header -->
+    <header class="px-4 lg:px-6 h-14 flex items-center bg-[#FF69B4]">
+        <a class="flex items-center justify-center" href="#">
+            <!-- Discord Logo SVG -->
+            <img src="discord.png" alt="Logo" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-white">
+            </svg>
+            <span class="sr-only">Discord Bot Invite</span>
+        </a>
+        <nav class="ml-auto flex gap-4 sm:gap-6">
+            <a class="text-sm font-medium hover:underline underline-offset-4 text-white" href="https://discord.gg/jCgweFSBXy">
+                Support Server
+            </a>
+            <a class="text-sm font-medium hover:underline underline-offset-4 text-white" href="https://discord.com/oauth2/authorize?client_id=1267591670619312230&permissions=10587093855999&scope=bot%20applications.commands">
+                Invite
+            </a>
+        </nav>
+    </header>
+  
+    <!-- Main Section -->
+    <main class="flex-1 flex flex-col items-center justify-center py-12 md:py-24 lg:py-32">
+        <div class="text-center">
+        <h1 class="text-3xl font-bold tracking-tighter text-white sm:text-5xl xl:text-6xl mb-4">
+            Achie: A Powerful Discord Bot
+        </h1>
+        <p class="max-w-3xl mx-auto text-white md:text-xl lg:text-base xl:text-xl mb-8">
+            Create a fully-featured Discord server with Achie: enjoy powerful moderation, a warm welcoming system, detailed logging, and a variety of other essential tools to enhance your community experience.
+        </p>
+        <a class="inline-flex h-12 items-center justify-center rounded-md bg-[#FF69B4] px-8 text-sm font-medium text-white shadow-lg transition-transform transform hover:scale-105 focus-visible:outline-none focus-visible:ring-1 animate-pulse-custom"
+            href="https://discord.com/oauth2/authorize?client_id=1267591670619312230&permissions=10587093855999&scope=bot%20applications.commands">
+            Invite Now
+        </a>
+        </div>
+
+    <!-- Logo Section -->
+    <div class="mt-12">
+        <span class="relative flex shrink-0 overflow-hidden rounded-full h-32 w-32 bg-[#FF69B4]">
+        <img src="logo.gif" alt="Logo" class="h-full w-full object-cover rounded-full">
+        </span>
+    </div>
+  
+  </main>
+  
+  <!-- Features Section -->
+  <section id="features" class="w-full py-12 md:py-24 lg:py-32 bg-gray-900">
+    <div class="container mx-auto px-4 md:px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl font-bold tracking-tighter text-white sm:text-5xl">Features</h2>
+        <p class="max-w-3xl mx-auto text-white md:text-xl lg:text-base xl:text-xl">
+          Our Discord bot comes packed with a variety of features to help you manage your server and keep your members engaged.
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Feature 1: Join Greet -->
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+          <div class="bg-[#FF69B4] rounded-md p-3 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+              <path d="m11 17 2 2a1 1 0 1 0 3-3"></path>
+              <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"></path>
+              <path d="m21 3 1 11h-2"></path>
+              <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"></path>
+              <path d="M3 4h8"></path>
+            </svg>
+          </div>
+          <div class="space-y-1">
+            <h3 class="text-xl font-bold text-white">Join Greet</h3>
+            <p class="text-white">Greet new members with a custom message when they join.</p>
+          </div>
+        </div>
+        
+        <!-- Feature 2: Boost Greet -->
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+          <div class="bg-[#FF69B4] rounded-md p-3 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+              <rect x="3" y="8" width="18" height="4" rx="1"></rect>
+              <path d="M12 8v13"></path>
+              <path d="M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7"></path>
+              <path d="M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5"></path>
+            </svg>
+          </div>
+          <div class="space-y-1">
+            <h3 class="text-xl font-bold text-white">Boost Greet</h3>
+            <p class="text-white">Celebrate members who boost your server with a special message.</p>
+          </div>
+        </div>
+        
+        <!-- Feature 3: Security -->
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+          <div class="bg-[#FF69B4] rounded-md p-3 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+              <path d="M10 11l2 2-2 2"></path>
+              <path d="M14 7h-4"></path>
+              <path d="M7 17l10-10"></path>
+            </svg>
+          </div>
+          <div class="space-y-1">
+            <h3 class="text-xl font-bold text-white">Security</h3>
+            <p class="text-white">Keep your server secure with advanced moderation and anti-spam tools.</p>
+          </div>
+        </div>
+        
+        <!-- Feature 4: Automod -->
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+          <div class="bg-[#FF69B4] rounded-md p-3 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+              <rect x="3" y="8" width="18" height="4" rx="1"></rect>
+              <path d="M12 8v13"></path>
+            </svg>
+          </div>
+          <div class="space-y-1">
+            <h3 class="text-xl font-bold text-white">Automod</h3>
+            <p class="text-white">Automatically moderate content and keep your server clean.</p>
+          </div>
+        </div>
+        
+        <!-- Feature 5: Moderation -->
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+          <div class="bg-[#FF69B4] rounded-md p-3 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+              <path d="M3 12h18"></path>
+              <path d="M3 6h18"></path>
+            </svg>
+          </div>
+          <div class="space-y-1">
+            <h3 class="text-xl font-bold text-white">Moderation</h3>
+            <p class="text-white">Manage your server with advanced moderation tools.</p>
+          </div>
+        </div>
+        
+        <!-- Feature 6: Roles -->
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+          <div class="bg-[#FF69B4] rounded-md p-3 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 6v6l4 2"></path>
+            </svg>
+          </div>
+          <div class="space-y-1">
+            <h3 class="text-xl font-bold text-white">Roles</h3>
+            <p class="text-white">Easily assign and manage roles for your members.</p>
+          </div>
+        </div>
+        
+        <!-- Feature 7: Giveaway -->
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+          <div class="bg-[#FF69B4] rounded-md p-3 flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-white">
+              <path d="M3 21h18"></path>
+              <path d="M12 3v18"></path>
+            </svg>
+          </div>
+          <div class="space-y-1">
+            <h3 class="text-xl font-bold text-white">Giveaway</h3>
+            <p class="text-white">Host fun giveaways and reward your community.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-4">
+    <div class="container mx-auto text-center text-white text-sm">
+      © 2022–2024 Console Development - India, Canada • Not affiliated with Discord Inc.
+    </div>
+  </footer>
+</body>
+</html>

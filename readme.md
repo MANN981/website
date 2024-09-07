@@ -137,6 +137,6 @@ If you encounter any issues or have questions, feel free to reach out for suppor
 ---
 
 <div style="display: flex; align-items: center;">
-  <img src="https://avatars.githubusercontent.com/u/116895355?v=4" alt="Developed by Console" style="border-radius: 50%; width: 50px; height: 50px; margin-right: 10px;">
-  <span style="border-radius: 50%; width: 50px; height: 50px; margin-right: 10px;">## Developed by Console</span>
+  <img src="https://avatars.githubusercontent.com/u/116895355?v=4" alt="Developed by Console" style="border-radius: 25%; width: 25px; height: 25px; margin-right: 5px;">
+  <span style="font-size: 50px; font-weight: bold;">Developed by Console</span>
 </div>
